@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Bootstrap Project</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="email-input" placeholder="Email manzil">
+            <label for="email-input">Email manzil</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="password-input" placeholder="Parol">
+            <label for="password-input">Parol</label>
+        </div>
+        <form class="form-floating">
+            <input type="email" class="form-control is-invalid" id="invalid-input"
+                placeholder="Noto'g'ri kiritilgan ma'lumot">
+            <label for="invalid-input">Noto'g'ri kiritilgan ma'lumot</label>
+        </form>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Izoh qoldiriw" id="example-textarea"></textarea>
+            <label for="example-textarea">Izohlar</label>
+        </div>
+        <div class="form-floating">
+            <select class="form-select" id="select-example" aria-label="Floating select label">
+                <option selected>Select menyusini ochiw</option>
+                <option value="1">Birinchi</option>
+                <option value="2">Ikkinchi</option>
+                <option value="3">Uchinchi</option>
+            </select>
+            <label for="select-example">Floating select label uchun misol</label>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Ism" aria-label="Ism">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Familiya" aria-label="Familiya">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="email-input" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email-input">
+            </div>
+            <div class="col-md-6">
+                <label for="password-input" class="form-label">parol</label>
+                <input type="password" class="form-control" id="password-input">
+            </div>
+            <div class="col-12">
+                <label for="address-input" class="form-label">Manzil</label>
+                <input type="text" class="form-control" id="address-input" placeholder="1234 Asosiy ko'chasi">
+            </div>
+            <div class="col-12">
+                <label for="address2-input" class="form-label">Manzil 2</label>
+                <input type="text" class="form-control" id="address2-input" placeholder="Uy raqami">
+            </div>
+            <div class="col-md-6">
+                <label for="city-input" class="form-label">Shahar</label>
+                <input type="text" class="form-control" id="city-input">
+            </div>
+            <div class="col-md-4">
+                <label for="district-input" class="form-label">Tuman</label>
+                <select id="district-input" class="form-select">
+                    <option selected>Tanlang...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="zip-input" class="form-label">Pochta indeksi</label>
+                <input type="text" class="form-control" id="zip-input">
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="grid-check">
+                    <label class="form-check-label" for="grid-check">
+                        Belgilang
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Yuboriw</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row mb-3">
+                <label for="email-input" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email-input">
+                </div>
+            </div>
+            <div class=" row mb-3">
+                <Label for="password-input" class="col-sm-2 col-form-label">Parol</ label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="password-input">
+                    </div>
+            </div>
+            <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2">Radio</legend>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="grid-radio-1" id="grid-radio-1">
+                        <label class="form-check-label" for="grid-radio-1">
+                            Birinchi radio
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="grid-radio-2" id="grid-radio-2">
+                        <label class="form-check-label" for="grid-radio-2">
+                            Ikkinchi radio
+                        </label>
+                    </div>
+                    <div class="form-check disabled">
+                        <input class="form-check-input" type="radio" name="grid-radio-3" id="grid-radio-3">
+                        <label class="form-check-label" for="grid-radio-3">
+                            Uchinchi disabled radio
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="row md-3">
+                <div class="col-sm-10 offent-sm-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="grid-check">
+                        <label class="form-check-label" for="grid-check">
+                            Checkbox uchun misol
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Ro'yxatdan o'tish</button>
+        </form>
+    </div>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
